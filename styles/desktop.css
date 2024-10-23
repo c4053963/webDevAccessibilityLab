@@ -8,16 +8,32 @@ h2 {
   max-width: 1200px;
   min-width: 600px;
 }
+.textInput {
+  display: flex;
+  height: 50px;
+  align-items: center
+}
+.textInput, label {
+  margin: 10px;
+  align-self: auto
+}
 header {
   border-radius: 8px;
   display: flex;
   justify-content: space-between;
+}
+header h1 a {
+  color: #fff;
+  text-decoration: none;
 }
 header h1 a:hover {
   text-decoration: underline;
 }
 #logo {
   padding: 10px;
+}
+#logo, a{
+  color: #fff
 }
 nav li a:hover {
   color: #7e8aa2;
